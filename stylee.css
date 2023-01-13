@@ -1,0 +1,63 @@
+body{
+    background-color: #83b3c8;
+}
+
+h1{
+    font-family: montserrat;
+}
+
+table{
+    margin-top: 150px;
+    margin-left: 580px;
+    background-color: rgb(167, 202, 247);
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.60);
+-webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.60);
+-moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.60);
+}
+
+tr, td{
+    font-family: montserrat;
+    color: #1a1a1a;
+    padding: 5px;
+}
+
+textarea, input[type=text], [type=number], [type=date]{
+    font-family: montserrat;
+    color: #1a1a1a;
+    background-color: #cbe6ff;
+    border-radius: 5px;
+    border: 0;
+}
+
+input[type=submit]{
+    font-family: montserrat;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    background-color: rgb(171, 253, 144);
+}
+
+input[type=button]{
+    font-family: montserrat;
+    font-weight: bold;
+    background-color: rgb(255, 164, 164);
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+}
+
+input[type=submit]:hover{
+    transition: 0.5s;
+    box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.6);
+}
+
+input[type=button]:hover{
+    transition: 0.5s;
+    box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.6);
+}
